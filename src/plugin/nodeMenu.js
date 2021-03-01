@@ -31,7 +31,7 @@ export default function(mind) {
     '#f1c40e',
     '#17a085',
     '#27ae61',
-    '#2ecc71',
+    '#008000',
   ]
   styleDiv.innerHTML = `
       <div class="nm-fontsize-container">

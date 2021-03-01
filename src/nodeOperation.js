@@ -108,9 +108,9 @@ export let insertSibling = function (el, node) {
   } else {
     this.linkDiv(grp.offsetParent)
   }
-  if (!node) {
-    this.createInputDiv(top.children[0])
-  }
+  // if (!node) {
+  //   this.createInputDiv(top.children[0])
+  // }
   this.selectNode(top.children[0], true)
   top.scrollIntoViewIfNeeded()
   console.timeEnd('insertSibling_DOM')
@@ -144,9 +144,9 @@ export let insertBefore = function (el, node) {
   } else {
     this.linkDiv(grp.offsetParent)
   }
-  if (!node) {
-    this.createInputDiv(top.children[0])
-  }
+  // if (!node) {
+  //   this.createInputDiv(top.children[0])
+  // }
   this.selectNode(top.children[0], true)
   top.scrollIntoViewIfNeeded()
   console.timeEnd('insertSibling_DOM')
@@ -200,9 +200,9 @@ export let addChild = function (el, node) {
     top.nextSibling.appendChild(grp)
     this.linkDiv()
   }
-  if (!node) {
-    this.createInputDiv(newTop.children[0])
-  }
+  // if (!node) {
+  //   this.createInputDiv(newTop.children[0])
+  // }
   this.selectNode(newTop.children[0], true)
   newTop.scrollIntoViewIfNeeded()
   console.timeEnd('addChild')
